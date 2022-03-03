@@ -1,0 +1,103 @@
+body{
+  margin: 2% 0 0 10%;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+h1, h2{
+  font-family: sans-serif;
+  margin: 2rem 0;
+}
+
+h2{
+  display: inline;
+}
+
+
+#language{
+  width: 7rem;
+  height: 1.5rem;
+  float: right;
+  margin-right: 20%;
+  text-align: center;
+}
+
+#themeBtn{
+  margin-top: .5rem;
+  position: absolute;
+  width: 2.3rem;
+  height: 2.5rem;
+  opacity: 0;
+  right: 30%;
+  cursor: pointer;
+}
+
+#theme::after{
+  position: absolute;
+  right: 30%;
+  content: "\2600";
+  border: none;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+#textDiv{
+  display: flex;
+}
+
+#lineCounter{
+  width: 3%;
+  margin: 2rem 0 1rem 0 ;
+  height: 18rem;
+  border-right: none;
+  background-color: lightgray;
+  padding: .5rem 0 0 .3rem;
+  font-size: 1rem;
+  overflow-y: hidden;
+  
+}
+#textarea{
+  display: block;
+  margin: 2rem 0 1rem 0 ;
+  width: 77%;
+  height: 18rem;
+  padding: .5rem 0 0 .5rem;
+  font-size: 1rem;
+  border-left: none;
+}
+
+
+
+
+#outputDiv{
+  padding: .5rem 0 0 .5rem;
+  width: 80%;
+  height: 18%;
+  background-color: black;
+  color: white;
+  margin: 0 0 1.3rem 0;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+
+}
+
+#btn{
+  border: none;
+  cursor: pointer;
+  background-color: orange;
+  width: 7rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-family: sans-serif;
+
+}
+
+#btn:hover{
+  box-shadow: 0 0 5px red;
+}
+
+#btn:active{
+  width: 6.8rem;
+  height: 2.3rem;
+}
